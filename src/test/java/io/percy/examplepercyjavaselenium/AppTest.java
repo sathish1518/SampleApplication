@@ -36,7 +36,7 @@ public class AppTest {
     @BeforeEach
     public void startAppAndOpenBrowser() throws IOException {
     	 // Disable browser logs from being logged to stdout
-    	System.setProperty("webdriver.chrome.driver","C:\\Users\\geetha.chinnapaiyan\\Desktop\\Percy\\chromedriver.exe");
+    	System.setProperty("webdriver.chrome.driver","D:\\chromedriver.exe");
         // Create a threadpool with 1 thread and run our server on it.
         serverExecutor = Executors.newFixedThreadPool(1);
         server = App.startServer(serverExecutor);
